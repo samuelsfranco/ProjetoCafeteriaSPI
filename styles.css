@@ -55,9 +55,10 @@ body {
 .inicio_nav{
     display: flex;
     gap: 90px;
+    
 }
 
-.inicio_nav_li{
+.inicio_nav_li {
     list-style: none;
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
@@ -65,10 +66,15 @@ body {
     font-size: 30px;
     line-height: 45px;
     cursor: pointer;
+    text-decoration: none;
     
-}
+}   
+.inicio_nav_li a{
+    text-decoration: none;
+    color: var(--cor-terciaria);
 
-.inicio_nav_li:hover{
+}
+.inicio_nav_li a:hover{
     transition: 1s;
     font-size: 31px;
     color:var(--cor-secundaria);
@@ -79,6 +85,7 @@ body {
 .menu_foto{
     width: 100%;
     height: auto;
+    
     
 }
 
@@ -151,6 +158,7 @@ body {
 .section_meio{
     padding: 7rem;
     background-color: var(--cor-primaria);
+    margin: -5px 0 0 0;
 
     
 }
@@ -169,8 +177,6 @@ body {
     justify-content: space-between;
     gap: 38px;
     flex: 1;
-    
-
     
 }
 
@@ -266,13 +272,22 @@ footer{
     margin-bottom: 30px;
 }
 
+.icones_footer_sobre{
+    display: flex;
+    position: absolute;
+    top: 4900px;
+    right: 300px;
+    gap: 35px;
+}
+
 .icones_footer{
     display: flex;
     position: absolute;
-    top: 2340px;
+    top: 2350px;
     right: 300px;
     gap: 35px;
-} 
+}
+
 
 .footer_dois{
     display: flex;
@@ -285,4 +300,376 @@ footer{
     font-family: var(--fonte-terciaria);
     color: #f2dac4;
     margin-top: 25px;
+}
+
+
+.texto_inicio_sobre{
+    position: absolute;
+    top: 200px;
+    right: 90px;
+    
+}
+
+.titulo_inicio_sobre{
+    font-size: 70px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.subtitulo_inicio_sobre{
+    font-size: 49px;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    margin-top: 140px;
+    margin-left: 300px;
+}
+.subtitulo_inicio_sobre span{
+    margin-left: 170px;
+}
+
+.conteudo_sobre_sobre{
+    background-color: var(--cor-primaria);
+    margin: -5px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.conteudo_sobre_sobre_um{
+    padding: 80px 132px 80px 132px;
+    letter-spacing: 3px;
+}
+
+
+.conteudo_sobre_sobre_um p{
+    font-size: 30px;
+    color: #f2dac4;
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    margin: 30px;
+}
+
+.conteudo_sobre_sobre_dois{
+    display: flex;
+    padding: 30px 90px 30px 90px;
+
+}
+
+
+
+.conteudo_sobre_sobre_dois_descricao{
+    background-color: var(--cor-secundaria);
+    letter-spacing: 3px;
+}
+
+
+.conteudo_sobre_sobre_dois_descricao p{
+    color: var(--cor-terciaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    margin: 45px 120px 30px 20px;
+    
+    
+}
+
+.conteudo_sobre_sobre_tres{
+    display: flex;
+    padding: 30px 90px 30px 90px;
+}
+
+.conteudo_sobre_sobre_tres_descricao{
+    background-color: var(--cor-secundaria);
+}
+
+.conteudo_sobre_sobre_tres_descricao p{
+    color: var(--cor-terciaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    margin: 45px 120px 30px 20px;
+    
+    
+}
+
+
+.conteudo_sobre_sobre_quatro{
+    display: flex;
+    padding: 30px 90px 30px 90px;
+
+}
+
+.conteudo_sobre_quatro_descricao{
+    background-color: var(--cor-secundaria);
+}
+
+.conteudo_sobre_quatro_descricao p{
+    color: var(--cor-terciaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    margin: 45px 120px 30px 20px;
+    
+    
+}
+
+.conteudo_sobre_sobre_quinto{
+    display: flex;
+    padding: 30px 90px 30px 90px;
+
+}
+
+.conteudo_sobre_quinto_descricao{
+    background-color: var(--cor-secundaria);
+}
+
+.conteudo_sobre_quinto_descricao p{
+    color: var(--cor-terciaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    margin: 45px 120px 30px 20px;
+    
+    
+}
+
+.titulo_inicio_cafeteria{
+    position: absolute;
+    top: 210px;
+    right: 200px;
+}
+
+.titulo_inicio_cafeteria_texto{
+    font-size: 65px;
+    color:var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.subtitulo_inicio_cafeteria_texto{
+    font-size: 45px;
+    color:var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    margin-left: 200px;
+}
+
+.sections_cafeteria{
+    margin: -4px;
+    background-color: var(--cor-primaria);
+}
+
+.parteum_cafeteria{
+    padding: 80px 132px 80px 132px;
+    font-size: 40px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+}
+
+
+
+.partedois_cafeteria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.partedois_cafeteria.img{
+    display:flex;
+    justify-content: center;
+}
+
+.partedois_cafeteria_texto{
+    background-color: var(--cor-secundaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    margin: -4px 125px 0 125px;
+    color: var(--cor-terciaria);
+} 
+
+.partetres_cafeteria{
+    margin-top: 150px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.partetres_cafeteria_img{
+    display: flex;
+    justify-content: center;
+}
+
+.partetres_cafeteria_texto{
+    background-color: var(--cor-secundaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    margin: -4px 125px 0 125px;
+    color: var(--cor-terciaria);
+} 
+
+
+.partetres_cafeteria_img_img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.partequatro_cafeteria{
+    margin-top: 150px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.partequatro_cafeteria_img{
+    display: flex;
+    justify-content: center;
+}
+
+.partequatro_cafeteria_texto{
+    background-color: var(--cor-secundaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    margin: -4px 125px 0 125px;
+    color: var(--cor-terciaria);
+} 
+
+
+.partequatro_cafeteria_img_img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.partecinco_cafeteria{
+    margin-top: 150px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.partecinco_cafeteria_img{
+    display: flex;
+    justify-content: center;
+}
+
+.partecinco_cafeteria_texto{
+    background-color: var(--cor-secundaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    margin: -4px 125px 0 125px;
+    color: var(--cor-terciaria);
+} 
+
+
+.partecinco_cafeteria_img_img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.parteseis_cafeteria{
+    margin-top: 150px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.parteseis_cafeteria_img{
+    display: flex;
+    justify-content: center;
+}
+
+.parteseis_cafeteria_texto{
+    background-color: var(--cor-secundaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    margin: -4px 125px 0 125px;
+    color: var(--cor-terciaria);
+} 
+
+
+.parteseis_cafeteria_img_img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.partesete_cafeteria{
+    margin-top: 150px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.partesete_cafeteria_img{
+    display: flex;
+    justify-content: center;
+}
+
+.partesete_cafeteria_texto{
+    background-color: var(--cor-secundaria);
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    margin: -4px 125px 0 125px;
+    color: var(--cor-terciaria);
+} 
+
+
+.partesete_cafeteria_img_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.parteoito_cafeteria{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.parteoito_cafeteria p{
+    padding: 80px 132px 80px 132px;
+    font-size: 40px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+}
+
+.partenove_cafeteria{
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    padding:100px 132px 80px 132px;;
+}
+
+.partenove_cafeteria_texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.partenove_cafeteria_texto_um{
+    font-size: 40px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+}
+
+.partenove_cafeteria_texto_dois{  
+    font-size: 40px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    margin-left: -25px;
+}
+
+.icones_footer_cafeteria{
+    display: flex;
+    position: absolute;
+    top: 11100px;
+    right: 300px;
+    gap: 35px;
 }
