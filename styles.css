@@ -95,16 +95,39 @@ body {
     gap: 37px;
     
 }
-.icons{
+.icons2{
     width: 40px;
     cursor: pointer;
 }
-
-
-.icons:hover{
-    transition: 1s;
-    width: 45px;
+.icons3{
+    width: 50px;
+    cursor: pointer;
 }
+
+.icons2:hover{
+    transition: 0.4s;
+    width: 55px;
+
+}
+.icons3:hover{
+    transition: 0.4s;
+    width: 60px;
+}
+
+
+.iconecadastro{
+    font-family: var(--fonte-secundaria);
+    font-size:17px;
+    color: var(--cor-terciaria);
+}
+
+.iconecadastro:hover{
+    transition: 1s;
+    font-size: 23px;
+    color:var(--cor-secundaria);
+    cursor: pointer;
+}
+
 .texto_inicio{
     position: absolute;
     left: 30px;
@@ -672,4 +695,48 @@ footer{
     top: 11100px;
     right: 300px;
     gap: 35px;
+}
+
+.menu_produtos_texto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    margin-top: -5px;
+   
+   
+    
+}
+.menu_produtos_conteudo{ 
+    padding: 140px 20px 0px 140px;
+}
+
+
+.menu_produtos_conteudo_titulo{
+    font-size: 100px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+}
+
+.menu_produtos_conteudo_subtitulo{
+    font-size: 70px;
+    font-family: var(--fonte-secundaria);
+    color:var(--cor-secundaria);
+    padding-left: 550px;
+    margin-top: -50px;
+    border-bottom: var(--cor-secundaria) 3px solid;
+
+}
+
+.menu_produtos_conteudo p{
+    padding: 10px 20px 0px 20px;
+    font-size: 30px;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    
+}
+
+.produtos_produtos_parteum{
+    background-color: var(--cor-primaria);
+    padding: 60px 130px 0px 130px;
 }
