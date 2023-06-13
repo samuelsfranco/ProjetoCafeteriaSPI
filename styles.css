@@ -17,7 +17,9 @@
     margin: 0%;
     border: none;
 }
-
+a{
+    text-decoration: none;
+}
 
 .header{
     height: 20px;
@@ -298,7 +300,6 @@ footer{
 .icones_footer_sobre{
     display: flex;
     position: absolute;
-    top: 4900px;
     right: 300px;
     gap: 35px;
 }
@@ -306,7 +307,6 @@ footer{
 .icones_footer{
     display: flex;
     position: absolute;
-    top: 2350px;
     right: 300px;
     gap: 35px;
 }
@@ -692,7 +692,6 @@ footer{
 .icones_footer_cafeteria{
     display: flex;
     position: absolute;
-    top: 11100px;
     right: 300px;
     gap: 35px;
 }
@@ -739,4 +738,289 @@ footer{
 .produtos_produtos_parteum{
     background-color: var(--cor-primaria);
     padding: 60px 130px 0px 130px;
+}
+
+.bg-caféArpoador{
+    height: 400px;
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: center; 
+}
+
+.bgMainCadastre-se{
+    background-color:var(--cor-terciaria) ;
+}
+.c-telaCadastro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.grid-criarConta{
+    margin-top: 100px;
+    margin-left: 313px;
+}
+.grid-criarConta h1{
+    display: inline;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    font-size: 40px;
+}
+.grid-criarConta h2{
+    display: inline;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    
+
+}
+
+.acesseSuaConta{
+    color: var(--cor-secundaria);
+}
+.grid-criarConta p{
+    margin-top: 50px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    font-size: 26;
+    font-weight: 600;
+}
+.buttonCriarConta{
+    padding: 15px;
+    background-color: var(--cor-primaria);
+    display: inline-block;
+    color: white;
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    margin-top: 20px;
+}
+.buttonCriarConta a{
+    text-decoration: none;
+    color: white;
+}
+.buttonCriarConta a:hover{
+    color: blue;
+    transition: 0.2s;
+}
+
+.grid-login{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.grid-login h1{
+    display: inline;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    font-size: 40px;
+}
+.grid-login p{
+    margin-top: 10px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+.grid-login form{
+    padding: 45px 1px;
+    background-color: var(--cor-primaria);
+    max-width: 450px;
+}
+ 
+
+.grid-login label{
+    font-family: var(--fonte-secundaria);
+    margin-left: 62px;
+    margin-right: 586px;
+    color: white;
+}
+.grid-login input{
+    padding: 4px 0px ;
+    margin-left: 62px;
+}
+::placeholder {
+    padding: 20px;
+    color: rgba(104, 104, 104, 0.383);}
+
+.formEmail{
+    color: rgba(212, 32, 32, 0.801);
+    font-family: var(--fonte-secundaria);
+    width: 335px;
+}
+.formularioLogin input{
+    border: 3px solid var(--cor-secundaria);
+}
+.grid-login span{
+    font-size: 12.5px;
+    font-family: var(--fonte-secundaria);
+    color: white;
+}
+.grid-login span a{
+    text-decoration: none;
+    color: white;
+}
+
+.grid-login span a:hover{
+    color: blue;
+    transition: 0.2s;
+}
+.checkBoxLembre-me{
+    border: solid 900px;
+   width: 20px;
+   height: 18px;
+}
+.formularioLogin{
+    margin-top:40px;
+}
+.spanSenha{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.rodapeCheckbox{
+    margin-top: 20px;
+}
+.buttonLogin{
+    padding: 15px 35px;
+    background-color: var(--cor-primaria);
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.buttonLogin a{
+    font-size: 20px;
+}
+
+input .checkBoxLembre-me{
+    border: 3px solid var(--cor-secundaria);
+}
+.bgMainCadastro{
+    background-color: var(--cor-terciaria);
+
+}
+.bg-Cadastro{
+    background-color: var(--cor-terciaria);
+   padding: 0px 200px 0px ;
+}
+.topoCadastre-se h1{
+    display: inline-block;
+    font-family: var(--fonte-secundaria);
+    margin-bottom: 40px;
+    font-size: 60px;
+    margin-left: 120px;
+    
+   
+    
+}
+.dadosPessoais{
+    font-family: var(--fonte-secundaria);
+    font-size: 20px; 
+    margin-left: 140px;
+    
+}
+.formDadosPessoais{
+    background-color: #0f2626;
+}
+.c-dataInput {
+ display: inline;
+}
+.c-dataInput input{
+    width: 50px;
+}
+.inputMes{
+margin-right: 0px;
+}
+
+.c-formularioLateral {
+    display: inline-flex;
+}
+.c-formularioUM{
+    margin-top:30px;
+    margin-left:50px;
+}
+.mainCadastro{
+    background-color: #f2dac4;
+}
+.c-cadastre-se{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-formularioTodos{
+    padding: 0px 10px ;
+    width: 1250px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    background-color: #0f2626;
+    
+}
+.c-formularioUM label{
+    font-family: var(--fonte-secundaria);
+    margin-left: 62px;
+    margin-right: 586px;
+    color: white;
+}
+
+.c-formularioUM input{
+    border: 3px solid var(--cor-secundaria);
+    padding: 3px 20px;
+    
+}
+.c-formularioUM span{
+    font-size: 12.5px;
+    font-family: var(--fonte-secundaria);
+    color: white;
+    
+}
+.c-cadastre-se{
+    background-color: var(--cor-terciaria);
+    padding: 0px;
+}
+.formularioDOIS {
+    margin-top: 30px;
+    margin-left:50px;
+  
+}
+.c-formularioDOIS label{
+    font-family: var(--fonte-secundaria);
+    margin-left: 62px;
+    margin-right: 586px;
+    color: white;
+}
+.c-formularioDOIS input{
+    border: 3px solid var(--cor-secundaria);
+    padding: 3px 20px;
+    
+}
+.c-formularioDOIS span{
+    font-size: 12.5px;
+    font-family: var(--fonte-secundaria);
+    color: white;
+    
+}
+.textConfirmPass{
+    margin-top: 1200px;
+}
+.buttonLoginDOIS{
+    padding: 15px 35px;
+    background-color: var(--cor-primaria);
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-bottom: 40px;
+    color: white;
+    
+}
+.buttonLoginDOIS a{
+    color: #FFFFFF;
+    text-decoration: none;
+   font-family: var(--fonte-secundaria);
+}
+.placeSenha{
+    font-family: var(--fonte-secundaria);
+}
+.dataDeNascimentoInput{
+    width: 40px;
+
+}
+.formularioDOIS1{
+    margin-top: 100px;
 }
