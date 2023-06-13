@@ -1024,3 +1024,171 @@ margin-right: 0px;
 .formularioDOIS1{
     margin-top: 100px;
 }
+
+.produtos_produtos_parteum{
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 130px 0px;
+}
+
+.produtos_produtoum h4 {
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    color: white;
+}
+.subtituloBotaoum {
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+}
+.produtobotaopreço {
+    position: relative;
+    left: 100px;
+    bottom: 120px;
+    font-size: 40px;
+    color: white;
+    background: var(--cor-primaria);
+    padding: 30px;
+}
+
+.produtos_produtoum {
+    background-color: var(--cor-secundaria);
+    padding: 20px 20px 0px;
+}
+
+.produtos_produtos_partedois {
+    background-color: var(--cor-primaria);
+    display: flex;
+    padding: 60px 130px 0px;
+}
+
+.produtos_produtodois {
+    background-color: var(--cor-secundaria);
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.produtos_produtodois h4 {
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    color: white;
+    box-sizing: border-box;
+}
+
+.subtituloBotaodois {
+    font-size: 22px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+}
+
+.produtobotaopreçodois {
+    position: relative;
+    right: -250px;
+    bottom: 60px;
+    font-size: 20px;
+    color: white;
+    background: var(--cor-primaria);
+    padding: 15px;
+}
+
+.produtos_produtotres {
+    background-color: var(--cor-secundaria);
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.produtos_produtotres h4 {
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.subtituloBotaodois {
+    font-size: 22px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+}
+
+.produtobotaopreçotres {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+    background: var(--cor-primaria);
+    padding: 15px;
+}   
+
+.produtos_produtotres {
+    background-color: var(--cor-secundaria);
+    box-sizing: border-box;
+    padding: 15px;
+}
+.produtos_produtotres h4 {
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.subtituloBotaodois {
+    font-size: 22px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+}
+
+.produtobotaopreçotres {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+    background: var(--cor-primaria);
+    padding: 15px;
+}
+
+.produtos_produtos_partedois {
+    background-color: var(--cor-primaria);
+    display: flex;
+    padding: 60px 130px 0px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.produtos_produtos_partetres {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 130px 0px;
+}
+
+.produtos_produtopartedois {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.produtos_produtoumpartedois {
+    background-color: var(--cor-secundaria);
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.produtos_produtoumpartedois h4 {
+    font-size: 35px;
+    font-family: var(--fonte-secundaria);
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.produtobotaopreçoquatro {
+    font-size: 25px;
+    color: white;
+    margin-left: 400px;
+    margin-top: -655px;
+    background: var(--cor-primaria);
+    padding: 15px;
+}
